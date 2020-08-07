@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="X-UA-compatible" content="IE=edge, chrome=1";/>
+        <meta name="viewport" content="widht=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+        <script type="text/javascript" src="arquivo.js"></script>
+        <link href="style.css" rel="stylesheet">
+
+        <title>BláChat</title>
+    </head>
+    <body>
+
+        <img src="images/blachat.png" id="blachat">
+        <!--h1>WebChat</h1-->
+        <br><br>
+
+        <section id="chat0">
+            <img src="images/1.png" id="man">
+            <img src="images/2.png" id="girl">
+            <div id="chat1">
+                <label for="a">Pessoa A:</label>
+                <input type="text" name="a" value="" id="conversaA">
+                <button type="button" onclick="mensagemA()">Enviar</button>
+                <button type="reset" onclick="limpar()">Limpar Conversa</button>
+
+            </div>
+            <div id="chat2">
+                <br><br>
+                <label for="b">Pessoa B:</label>
+                <input type="text" name="b" value="" id="conversaB">
+                <button type="button" onclick="mensagemB()">Enviar</button>
+                <button type="reset" onclick="limpar()">Limpar Conversa</button>
+
+            </div>
+            <div id="mensagens"></div>
+            <!--button type="reset" onclick="limpar()">Limpar Conversa</button-->
+
+        </section>
+        
+        <br><br>
+    </body>    
+    
+</html>
